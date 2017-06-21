@@ -1,0 +1,63 @@
+
+
+body
+{
+    font: 14px 'Calibri', Helvetica;    
+   
+}
+
+.all-rounded {
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+
+}
+
+.spacer {
+    display: block;
+}
+
+#progress-bar {
+
+    margin: 0 auto;
+    background: #cccccc;
+    border: 3px solid #f2f2f2;
+}
+
+#progress-bar-percentage {
+    background: #FF9900;
+    padding: 5px 0px;
+    color: #FFF;
+    font-weight: bold;
+    text-align: center;
+}
+
+table
+{
+    font: 14px 'Calibri', Helvetica; 
+    padding: 1px 0px;
+    font-weight: bold;
+}
+
+.col1 
+{
+    width: 100px;
+    text-align: left;
+    background: F8F2F2;
+}
+.col2
+{   
+    width: 400px;
+}
+td
+{
+    
+    vertical-align:center;
+}
+
+th
+{
+    background-color:#000066;
+    color:white;
+}
+

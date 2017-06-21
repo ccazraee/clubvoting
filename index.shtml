@@ -1,0 +1,93 @@
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<link rel="stylesheet" type="text/css" href="./css/origo.css" title="Origo" media="all" />
+
+	<title>JIT Cares 2016 Election </title>
+</head>
+
+
+<script>
+function validateForm()
+{
+var loginName=document.forms["myForm"]["fname"].value;
+if (loginName==null || loginName=="")
+  {
+  alert("Please enter your username. It cannot be blank.");
+  return false;
+  }
+  
+var staffID=document.forms["myForm"]["staffid"].value;
+if (staffID==null || staffID=="")
+  {
+  alert("Please enter your staff ID. It cannot be blank.");
+  return false;
+  }
+}
+
+</script>
+
+
+<script>
+function clearForms()
+{
+  var i;
+  for (i = 0; (i < document.forms.length); i++) {
+    document.forms[i].reset();
+  }
+}
+</script>
+
+
+<body onLoad="clearForms()" onUnload="clearForms()" class="light blue smaller freestyle01">
+<div id="layout">
+
+	<div class="row">
+		<div class="col c12 aligncenter">
+			<img src="./images/front.jpg" width="960" height="240" alt="" />
+		</div>
+	</div>
+ 
+	<div class="row">
+		<div class="col c12 aligncenter">
+			<h3>Instruction:</h3>
+			<p>JITCAReS Election for 2016 Committee. Vote wisely :-)
+		</div>
+	</div>
+ 
+ 
+		<div class="row aligncenter">
+
+		<form name="myForm" action="checkname.php" onsubmit="return validateForm()" method="post">
+					<p>Enter your LAN ID [example: ccahmad] </p>
+					<input type="text" name="fname">
+			<p></P>
+					<p>Enter your STAFF ID with the zeroes, not your password [example:0012345]</p>
+					<input type="text" name="staffid"><BR>
+					<input type="hidden" name="userip" value=<!--#echo var="REMOTE_ADDR"-->>
+			<p></P>
+						<input type="submit" value="Proceed to Vote">
+		</form>
+
+		<div class="col c5">
+
+ 
+
+		</div>
+
+		</div>
+        <br>
+		<br>
+		<br>
+ 		 <p style="font-style:italic;font-size:10px">
+		Your IP Address of <!--#echo var="REMOTE_ADDR"--> is logged.
+		Please contact <a href="mailto:ccazraee@xyz.com"> support </a>if you have problems. <br>
+
+		</p>
+ 
+
+	</div>
+ </div>
+
+</body>
+</html>

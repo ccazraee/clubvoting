@@ -1,0 +1,54 @@
+<?php
+session_start();
+session_unset();
+session_destroy();
+?>
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+	<link rel="stylesheet" type="text/css" href="./css/origo.css" title="Origo" media="all" />
+	<title>Thanks!</title>
+</head>
+
+<body class="light blue smaller freestyle01">
+<div id="layout">
+
+	<div class="row">
+		<div class="col c12 aligncenter">
+			<img src="./images/frontq.jpg" width="960" height="240" alt="" />
+		</div>
+	</div>
+ 
+	<div class="row">
+		<div class="col c12 aligncenter">
+
+		</div>
+	</div>
+ 
+ 
+		<div class="row aligncenter">
+			<h2>Thank you for your vote!</h2>
+			<p>It has been an exciting year for all us in JIT. </p>
+			<p>We wish to thank everyone for their help and participation in all JITCAReS activities in 2015.</p>
+		
+
+			<p>To see current raw unaudited results, please click on the button below</p>
+			
+			<form name="myForm" action="result.php" method="post">
+			<input type="submit" value="See Result">
+			</form>
+
+
+		</div>
+ 
+
+ 
+
+	</div>
+ </div>
+</body>
+</html>

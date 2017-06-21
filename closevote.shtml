@@ -1,0 +1,43 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+	<link rel="stylesheet" type="text/css" href="origo.css"  media="all" />
+	<title>Thanks!</title>
+</head>
+
+<body class="light blue smaller freestyle01">
+<div id="layout">
+
+	<div class="row">
+		<div class="col c12 aligncenter">
+			<img src="images/closed.jpg"  />
+		</div>
+	</div>
+ 
+	<div class="row">
+		<div class="col c12 aligncenter">
+
+		</div>
+	</div>
+ 
+ 
+		<div class="row aligncenter">
+			<h2>Voting period has closed on Wednesday November 23, 2016</h2>
+			<p>We wish to thank everyone for their help and participation in all JIT Cares activities in 2012.</p>
+			<p>To see current Unaudited Results, please click on the button below</p>
+			
+			<form name="myForm" action="result.php" method="post">
+			<input type="submit" value="See Result">
+			</form>
+
+		</div>
+ 
+
+ 
+
+	</div>
+ </div>
+</body>
+</html>
